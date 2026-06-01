@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us | Giga.go</title>
+    <meta
+      name="description"
+      content="Learn about Giga.go—bringing affordable internet to rural and underserved communities in Ghana through Wi‑Fi hotspots."
+    />
+    <link rel="icon" href="gigago logo.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="brand" aria-label="Giga.go home">
+          <img src="gigago logo.png" alt="Giga.go" width="160" height="48" />
+        </a>
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-label="Open menu"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+        <nav class="site-nav" aria-label="Main">
+          <a href="index.html">Home</a>
+          <a href="about.html" class="is-active">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html" class="nav-cta">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <h1>About <span class="accent">Giga.go</span></h1>
+          <p class="lead">
+            We are a Ghanaian-based startup company focused on expanding affordable internet to rural
+            and peri‑urban communities through shared Wi‑Fi hotspots. Our mission is to bridge the digital divide in Ghana by providing affordable internet access to rural and peri‑urban communities. 
+            Our services are designed to be accessible to everyone, regardless of their location or income level.
+        
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="grid grid-2">
+            <article class="card">
+              <h3>Our mission</h3>
+              <p>
+                Many rural areas in Ghana lack reliable, affordable internet.
+                Giga.go bridges that gap by deploying managed hotspots where
+                people already gather—so students can learn, traders can sell
+                online, and families can stay connected.
+              </p>
+            </article>
+            <article class="card">
+              <h3>How we operate</h3>
+              <p>
+                We install Wi‑Fi equipment at partner locations, run a captive
+                portal for authentication and billing, and monitor network
+                performance to keep connections stable for our users.
+              </p>
+            </article>
+          </div>
+
+          <div class="highlight-box" style="margin-top: 2rem">
+            <p>
+              <strong>Business type:</strong> Internet hotspot and connectivity
+              services. We receive payments for time-based and data-based
+              internet access passes sold through our captive portal—not for
+              physical goods, gambling, or cryptocurrency.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a href="index.html" class="footer-brand">
+          <img src="gigago logo.png" alt="Giga.go" width="120" height="36" />
+        </a>
+        <p class="footer-copy">© <span id="year"></span> Giga.go. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
